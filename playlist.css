@@ -1,0 +1,121 @@
+.container{
+    display: flex;
+    background-color :lavender;
+    height : 900px;
+    width : 405px;
+    flex-direction : row;
+    position:absolute;
+    top : 0;
+    z-index: -1;
+}
+.back{
+    display:flex;
+    background-color :white;
+    height : 880px;
+    width : 380px;
+    border : 2px solid gainsboro;
+    align-self: center;
+    position:absolute;
+    left : 10px;
+}
+.x{
+    font-size: 20px;
+    position :absolute;
+    top : 50px;
+    left : 30px;
+}
+.image{
+    font-size: 20px;
+    position: relative;
+    bottom : 90px;
+    left : 107px;
+}
+.photo{
+    display:flex;
+    background-color :khaki;
+    border : 2px solid black;
+    height : 170px;
+    width : 170px;
+    border-radius: 20px;
+    position: absolute;
+    top : 120px;
+    left : 30px;
+}
+.play{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top : 30px;
+    left : 40px;
+    margin : 5px;
+    background-color: white;
+    border : 2px solid black;
+    height : 55px;
+    width : 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15%;
+}
+.heart{
+    font-size: 20px;
+    position: relative;
+    bottom : 35px;
+    left : 207px;
+    margin : 5px;
+    background-color: white;
+    border : 2px solid black;
+    height : 55px;
+    width : 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus{
+    font-size: 20px;
+    position: relative;
+    bottom : 100px;
+    left : 285px;
+    margin : 5px;
+    background-color: white;
+    border : 2px solid black;
+    height : 55px;
+    width : 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 430px;
+    left: 20px;
+  }
+#album .M,
+#album .A,
+#album .T,
+#album .S {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border : 2px solid black;
+    display: block;
+    margin: 25px;
+  }
+#album .M{
+    background-color :indianred;
+}
+#album .A{
+    background-color :lightpink;
+}
+#album .T{
+    background-color :cornflowerblue;
+}
+#album .S{
+    background-color :darkgray;
+}
